@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "energy-sense",
+    "schema":"energy=sense",
     "slug": "energy-sense",
     "version": "1.0.0",
     "orientation": "portrait",

@@ -16,6 +16,9 @@ function HomeScreen({ navigation }) {
     </View>
   );
 }
+
+
+
 function DetailsScreen({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
@@ -29,7 +32,12 @@ function DetailsScreen({ navigation }) {
     </View>
   );
 }
+
+
 const Stack = createNativeStackNavigator();
+
+
+
 
 function App() {
   return (
@@ -43,7 +51,7 @@ function App() {
         <Stack.Screen
           name="Details"
           component={DetailsScreen}
-          options={{ title: "Details", animation: "slide_from_left" ,animationDuration:3000}}
+          options={{ title: "Details", animation: "slide_from_right" ,animationDuration:3000}}
         />
       </Stack.Navigator>
     </NavigationContainer>
